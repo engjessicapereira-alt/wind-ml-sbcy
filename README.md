@@ -19,3 +19,8 @@ The experiments include:
 - temporal validation and final testing.
 
 The code and documentation required to reproduce the main analyses will be organized in this repository.
+### Experimento adicional com direção observada do vento
+
+A direção local do vento, proveniente da série observacional consolidada, também foi avaliada como preditor no horizonte de t+1 h. A variável foi representada por componentes seno e cosseno, com identificação específica das condições de calmaria.
+
+Foram avaliadas duas configurações adicionais: a inclusão da direção local no modelo parcimonioso e a substituição das componentes direcionais do ERA5-Land pela direção local. Em ambos os casos, as alterações em MAE, RMSE e R² foram marginais e não indicaram ganho consistente de desempenho. Assim, a configuração parcimoniosa original foi mantida.
